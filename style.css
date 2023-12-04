@@ -1,0 +1,36 @@
+p {
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(161, 236, 253);
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    margin-top: 200px
+}
+
+.title {
+    color: (161,236,253);
+    font-size: 50px;
+}
+
+.purpose {
+    margin-top: -55px;
+    line-height: 1.2;
+    font-size: 27px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(139, 182, 191)
+    
+    
+}
+
+.button {
+    font-size: 20px;
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: black;
+    border: 2px solid  rgb(161, 236, 253); 
+            padding: 3px; 
+            border-radius: 50px;
+            width: 300px; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px; 
+}
