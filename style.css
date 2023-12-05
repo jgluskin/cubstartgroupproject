@@ -1,10 +1,20 @@
 p {
     color: white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(161, 236, 253);
     font-family: 'Jua', sans-serif;
     text-align: center;
     margin-top: 200px
+}
+
+.response {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(4, 83, 101);
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    margin-top: 200px
+
 }
 
 .title {
@@ -23,6 +33,11 @@ p {
 }
 
 .button {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    
     font-size: 20px;
     -webkit-text-stroke-width: 1.6px;
     -webkit-text-stroke-color: black;
