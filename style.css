@@ -1,18 +1,19 @@
 p {
     color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(161, 236, 253);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(105, 140, 205);
     font-family: 'Jua', sans-serif;
     text-align: center;
     margin-top: 200px
 }
 
 .response {
-    color: white;
+    color: rgb(234, 33, 33);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(4, 83, 101);
-    font-family: 'Jua', sans-serif;
+    -webkit-text-stroke-color: rgb(77, 22, 3);
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 30px;
     margin-top: 200px
 
 }
@@ -26,11 +27,23 @@ p {
     margin-top: -55px;
     line-height: 1.2;
     font-size: 27px;
+    text-align: center;
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(139, 182, 191)
+    -webkit-text-stroke-color: rgb(10, 101, 205)
     
     
 }
+
+.purpose {
+	color: rgb(225, 236, 235);
+	background-color: #f6ddba;
+	border-style: solid;
+    margin: auto;
+    width: 500px;
+    height: 95px;
+	border-color: rgb(240, 186, 25);
+}
+
 
 .button {
     position: absolute;
